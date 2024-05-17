@@ -5,7 +5,10 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ## Installation
 
-Copy the content of this repository to your `~/.config/nvim` directory.
+1. Clone the content of this repository to your `~/.config/nvim` directory.
+2. Remove the .git directory from the cloned repository.
+3. Adjust the `alpha.lua` file to your needs.
+4. Enjoy!
 
 ## Prerequisites
 
