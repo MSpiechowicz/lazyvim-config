@@ -1,6 +1,6 @@
 return {
   "goolord/alpha-nvim",
-  opts = function(init, opts)
+  opts = function(_, opts)
     local logo = [[
  ____  ____   __    ___  __  _  _  ____ 
 (  __)(  _ \ /  \  / __)(  )/ )( \/ ___)

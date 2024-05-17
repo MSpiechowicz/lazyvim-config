@@ -10,5 +10,5 @@ return {
       html = { { "prettierd", "prettier" } },
       css = { { "prettierd", "prettier" } },
     },
-  }
+  },
 }
