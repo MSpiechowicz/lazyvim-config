@@ -1,6 +1,7 @@
 -- Keymaps are automatically loaded on the VeryLazy event
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
+
+-- Telescope
 vim.keymap.set(
   "n",
   "<leader>sx",
@@ -8,8 +9,15 @@ vim.keymap.set(
   { noremap = true, silent = true, desc = "Resume" }
 )
 
-vim.keymap.set("n", "<leader>t", ":ToggleTerm<CR>", { noremap = true, silent = true, desc = "Toggle Terminal" })
+-- Terminal
+vim.keymap.set(
+  "n",
+  "<leader>t",
+  ":ToggleTerm<CR>",
+  { noremap = true, silent = true, desc = "Toggle Terminal" }
+)
 
+-- CopilotChat
 vim.keymap.set("n", "<leader>ccq", function()
   local input = vim.fn.input("Quick Chat: ")
   if input ~= "" then
