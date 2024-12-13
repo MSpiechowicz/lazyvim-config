@@ -25,7 +25,3 @@ vim.keymap.set("n", "<leader>ccq", function()
   end
 end, { desc = "CopilotChat - Quick Chat" })
 
-vim.keymap.set("n", "h", "<Left>", { noremap = true, silent = true })
-vim.keymap.set("n", "j", "<Down>", { noremap = true, silent = true })
-vim.keymap.set("n", "k", "<Up>", { noremap = true, silent = true })
-vim.keymap.set("n", "l", "<Right>", { noremap = true, silent = true })
