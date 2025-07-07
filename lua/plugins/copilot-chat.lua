@@ -1,13 +1,14 @@
 return {
   {
     "CopilotC-Nvim/CopilotChat.nvim",
-    branch = "canary",
+    branch = "main",
     dependencies = {
       { "zbirenbaum/copilot.lua" },
-      { "nvim-lua/plenary.nvim" },
+      { "nvim-lua/plenary.nvim", branch = "master" },
     },
     opts = {
-      debug = true,
+      debug = false,
+      model = "claude-sonnet-4"
     },
   },
 }
