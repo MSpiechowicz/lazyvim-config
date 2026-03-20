@@ -8,7 +8,7 @@ return {
       keymap = {
         jump_prev = "[[",
         jump_next = "]]",
-        accept = "<C-j>",
+        accept = "<C-l>",
         refresh = "gr",
         open = "<M-CR>",
       },
